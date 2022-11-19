@@ -7,12 +7,12 @@ const API_Key='271cf625e2e190b21abfc4971790791e'
 
 class App extends Component{
   state = {
-    tempreature : " ",
-    city :" ",
-    country :" ",
-    humidity :" ",
-    description :" ",
-    error : " ",
+    tempreature : "",
+    city :"",
+    country :"",
+    humidity :"",
+    description :"",
+    error : "",
   }
 
   getweather = async (e)  => {
