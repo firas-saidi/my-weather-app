@@ -3,7 +3,7 @@ import './App.css';
 
 import Form from './components/Form';
 import Weather from './components/Weather';
-const API_Key='271cf625e2e190b21abfc4971790791e'
+const API_Key=process.env.REACT_APP_API
 
 class App extends Component{
   state = {

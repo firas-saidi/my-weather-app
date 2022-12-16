@@ -7,7 +7,7 @@ const  Weather= (props) => {
     
      
     <div className='card2 col-lg-4 col-md-5 bo'>
-     <div class="row px-3 ">
+     <div className="row px-3 ">
      <div className='mr-5'>
      
                    <div className="row px-3">
